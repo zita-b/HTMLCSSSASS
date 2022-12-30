@@ -1,0 +1,4 @@
+@function getShift($base, $size, $index) {
+  @return ($index - 1) * $size
+  + $base;
+}

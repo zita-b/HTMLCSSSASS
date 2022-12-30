@@ -1,0 +1,13 @@
+.title {
+  @extend %large-text;
+  padding: 0;
+  width: 65%;
+
+  @media (min-width: 300px) {
+    background-color: yellowgreen;
+  }
+
+  @media (min-width: 700px) {
+    background-color: red;
+  }
+}

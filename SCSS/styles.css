@@ -1,0 +1,82 @@
+.game__field, .title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.title {
+  padding: 0;
+  width: 65%;
+}
+@media (min-width: 300px) {
+  .title {
+    background-color: yellowgreen;
+  }
+}
+@media (min-width: 700px) {
+  .title {
+    background-color: red;
+  }
+}
+
+.game {
+  position: relative;
+  width: 300px;
+  border: 2px solid #000;
+}
+.game__field {
+  display: flex;
+  flex-wrap: wrap;
+}
+.game__cell {
+  height: 100px;
+  width: 100px;
+  box-sizing: border-box;
+  border: 1px dashed #000;
+}
+.game__player {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.game__player--col--1 {
+  left: 10px;
+}
+.game__player--col--2 {
+  left: 110px;
+}
+.game__player--col--3 {
+  left: 210px;
+}
+.game__player--row--1 {
+  top: 10px;
+}
+.game__player--row--2 {
+  top: 110px;
+}
+.game__player--row--3 {
+  top: 210px;
+}
+.game__player--row--4 {
+  top: 310px;
+}
+.game__player--row--5 {
+  top: 410px;
+}
+.game__player--row--6 {
+  top: 510px;
+}
+.game__player--color--red {
+  background-color: #f00;
+}
+.game__player--color--green {
+  background-color: #0f0;
+}
+.game__player--color--blue {
+  background-color: #00f;
+}
+
+/*# sourceMappingURL=styles.css.map */
